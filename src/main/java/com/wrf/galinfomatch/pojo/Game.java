@@ -6,7 +6,6 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.data.elasticsearch.annotations.Document;
 
 import java.io.Serializable;
 import java.lang.annotation.Documented;
@@ -21,7 +20,6 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Document(indexName = "game")
 public class Game implements Serializable {
     @TableId(type = IdType.AUTO)
     private Integer id;
