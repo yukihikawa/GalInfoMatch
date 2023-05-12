@@ -27,6 +27,6 @@ class GetGameServiceImplTest {
 
     @Test
     void getGame() {
-        System.out.println(getGameService.getGame("0000001"));
+        System.out.println(getGameService.getGame("0000002"));
     }
 }

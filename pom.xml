@@ -28,6 +28,7 @@
         <lombok.version>1.18.26</lombok.version>
         <swagger.version>2.9.2</swagger.version>
         <elasticsearch-java.version>8.6.2</elasticsearch-java.version>
+        <solr-version>9.2.0</solr-version>
     </properties>
 
     <dependencies>
@@ -68,6 +69,15 @@
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>${mybatis-plus.version}</version>
         </dependency>
+
+<!--        solr-->
+        <!-- https://mvnrepository.com/artifact/org.apache.solr/solr-core -->
+        <dependency>
+            <groupId>org.apache.solr</groupId>
+            <artifactId>solr-core</artifactId>
+            <version>${solr-version}</version>
+        </dependency>
+
 
 
 <!--        elasticsearch-->
